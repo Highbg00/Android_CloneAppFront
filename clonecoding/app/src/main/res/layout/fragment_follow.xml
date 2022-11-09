@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".follow.FollowFragment"
+    >
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="생방송 채널"
+             android:textSize="22dp"
+             android:textStyle="bold"
+             android:textColor="@color/black"
+             android:layout_marginLeft="15dp"/>
+         <androidx.recyclerview.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/live_rec"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="추천 채널"
+             android:textSize="22dp"
+             android:textStyle="bold"
+             android:textColor="@color/black"
+             android:layout_marginLeft="15dp"/>
+         <androidx.recyclerview.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/recom_rec"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="계속 보기"
+             android:textSize="22dp"
+             android:textStyle="bold"
+             android:textColor="@color/black"
+             android:layout_marginLeft="15dp"/>
+         <androidx.recyclerview.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/continue_rec"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="오프라인 채널"
+             android:textSize="22dp"
+             android:textStyle="bold"
+             android:textColor="@color/black"
+             android:layout_marginLeft="15dp"/>
+         <androidx.recyclerview.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/off_rec"/>
+      </LinearLayout>
+   </ScrollView>
+</LinearLayout>

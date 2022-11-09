@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_live"
+        android:title="라이브"
+        android:icon="@drawable/ic_baseline_live_tv_24"
+        app:showAsAction="always"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/menu_alram"
+        android:title="알림"
+        android:icon="@drawable/ic_baseline_inbox_24"
+        app:showAsAction="always"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/menu_social"
+        android:title="소셜"
+        android:icon="@drawable/ic_baseline_message_24"
+        app:showAsAction="always"
+        android:iconTint="@color/black"/>
+    <item
+        android:id="@+id/menu_search"
+        android:title="검색"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        android:iconTint="@color/black"/>
+</menu>

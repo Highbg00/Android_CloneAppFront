@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LiveActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="318dp"
+        android:src="@drawable/im" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="빠르게 방송 시작하기"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="몇 초만에 이 기기로 바로 방송을 시작할 수 있습니다.시작해 볼까요?"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/purple_500"
+        android:layout_gravity="center"
+        android:text="게임 방송하기\n모바일 기기에서 플레이하면서 방송을 진행하세요"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat" />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/purple_500"
+        android:layout_gravity="center"
+        android:text="리얼라이프 방송하기\n어디서든 일상을 방송해 보세요"
+        android:textAlignment="viewStart"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>
